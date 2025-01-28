@@ -1,0 +1,53 @@
+/* Styles généraux */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #e3f2fd;
+    background-image: url('https://img.freepik.com/vecteurs-libre/fond-numerique-espace-copie-bleue_23-2148821698.jpg?ga=GA1.1.1115593553.1730033673&semt=ais_hybrid');
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+h1, h2 {
+    color: #003366;
+}
+
+section {
+    margin: 50px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 3px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

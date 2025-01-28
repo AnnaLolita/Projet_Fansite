@@ -1,0 +1,62 @@
+/* Styles généraux */
+body {
+    font-family: 'Georgia', serif;
+    background-color: #fce4ec;
+    background-image: url('https://img.freepik.com/photos-gratuite/arriere-plan-texture-iridescente-rouge_23-2151839353.jpg?ga=GA1.1.1115593553.1730033673&semt=ais_hybrid');
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #d81b60;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+h1, h2 {
+    color: #d81b60;
+}
+
+section {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 50px;
+}
+
+
+footer {
+    background-color: #d81b60;
+    color: white;
+    text-align: center;
+    padding: 3px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+a {
+    color: #d81b60;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
